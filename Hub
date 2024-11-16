@@ -33,9 +33,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("BloxFruit", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Section Example")
+local Section = Tab:CreateSection("Choose")
 
 local Divider = Tab:CreateDivider()
 
@@ -57,7 +57,7 @@ Rayfield:Notify({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "Redz",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
    end,
