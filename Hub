@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
    Name = "Ravenhub",
    LoadingTitle = "Projected by raven",
    LoadingSubtitle = "By raven",
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Bloom", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -69,15 +69,3 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
    end,
 })
-
-local Button = Tab:CreateButton({
-   Name = "W-azure auto bounty",
-   Callback = function()
-
-   end,
-})
-
-local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
-
-local Section = Tab:CreateSection("Choose")
-
